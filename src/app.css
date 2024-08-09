@@ -1,0 +1,32 @@
+
+ /* -----------------------------Skill --------------------------------------------- */
+
+#skillbut button:hover {
+  box-shadow: 0 0 5px 4px #7971719e;
+  background-color: #233654;
+}
+
+#progess {
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+#progess-spam {
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+/* -----------------------------------------contact----------------------------------- */
+
+.in1:focus{
+  box-shadow: 0 0 9px 4px #7b69dc;  
+  outline: none;
+}
